@@ -6,7 +6,9 @@ public class PlayerMovement : MonoBehaviour
 {
     public bool isPlaying;
     public Vector3 playerPos;
-    public GameObject player;
+    public Rigidbody rbPlayer;
+    public Camera cam;
+    public int moveSpeed;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,9 +18,19 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        while (isPlaying)
+        /*while (isPlaying)
         {
-            playerPos = player.transform.position;
+            Debug.Log("player bewegt sich");
+        } */
+
+
+        if (Input.GetKey("w") && isPlaying)
+        {
+
+            Debug.Log("taste w gedrückt");
+
+            rbPlayer.AddForce(0, 0, moveSpeed);
+
         }
     }
 }

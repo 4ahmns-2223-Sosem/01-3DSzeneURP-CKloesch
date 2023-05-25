@@ -10,10 +10,12 @@ public class SceneManagerScript : MonoBehaviour
     {
         
     }
-     
+
+    
     public void OnInfoButtonClick()
     {
-        SceneManager.LoadScene("InfoWall");
+        SceneManager.LoadScene("3DScene");
+        Debug.Log("jetzt würde ich zur InfoWall springen");
     }
     
 }
