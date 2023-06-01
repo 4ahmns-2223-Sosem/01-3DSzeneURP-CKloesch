@@ -24,13 +24,6 @@ public class PlayerMovement : MonoBehaviour
         } */
 
 
-        if (Input.GetKey("w") && isPlaying)
-        {
-
-            Debug.Log("taste w gedrückt");
-
-            rbPlayer.AddForce(0, 0, moveSpeed);
-
-        }
+       
     }
 }

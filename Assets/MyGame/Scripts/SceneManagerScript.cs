@@ -12,9 +12,9 @@ public class SceneManagerScript : MonoBehaviour
     }
 
     
-    public void OnInfoButtonClick()
+    public void OnMouseDown()
     {
-        SceneManager.LoadScene("3DScene");
+        SceneManager.LoadScene("SampleScene");
         Debug.Log("jetzt würde ich zur InfoWall springen");
     }
     
