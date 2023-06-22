@@ -10,6 +10,7 @@ public class GameManagerScript : MonoBehaviour
     public bool[] correctedObjs = new bool[4];
     public FPSController fpscontrl;
     public Text bravoText;
+    public Button endGame;
     
     void Start()
     {
@@ -44,6 +45,7 @@ public class GameManagerScript : MonoBehaviour
         {
             fpscontrl.canMove = false;
             bravoText.gameObject.SetActive(true);
+            endGame.gameObject.SetActive(true);
         }
     }
 
