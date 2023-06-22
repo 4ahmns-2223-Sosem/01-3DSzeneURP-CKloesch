@@ -23,7 +23,8 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 + Umgang mit Audio Files in Unity
 
 **Limitations:**
-+ While-Loop ließ sich nicht einbauen, da meine Anwendungszwecke jedes Mal einen Endless-Loop kreiert habne
++ While-Loop ließ sich nicht so einbauen wie geplant, da dies einen Endlos-Loop kreiert, daher habe ich den While-Loop stattdessen als Instanzierer für Bücher im Bücherregal verwendet
++ Licht geht bei Neustart des Spieles nicht (Light Settings Probleme)
 
 **Copyright by:** 
 CKLoesch
